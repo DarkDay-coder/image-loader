@@ -1,22 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageLoader from "./ImageLoader";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Hello sibu Dhital
+        <ImageLoader src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Snake_River_%285mb%29.jpg/1200px-Snake_River_%285mb%29.jpg?20080122031527" alt="Example Image" />
       </header>
     </div>
   );
